@@ -1,4 +1,4 @@
-# Store_Website_Link_and_name
+# Store Website Link and name
 
 In this App you can easily login by using your Email Id and Password
 
