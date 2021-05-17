@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096930949512",
+    "project_id": "dummy-satya",
+    "storage_bucket": "dummy-satya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096930949512:android:8587f8914d9c4bf224623d",
+        "android_client_info": {
+          "package_name": "admin.example.satyadummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096930949512-foikniqtolbbp1i0glina1huq6lfifjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgmzZvFTYjVcmHs1S1p1cn__DCKdt2b7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096930949512-foikniqtolbbp1i0glina1huq6lfifjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
