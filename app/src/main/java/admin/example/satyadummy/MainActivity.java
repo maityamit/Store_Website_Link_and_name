@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editText = findViewById(R.id.edit_text);
         relativeLayout = findViewById(R.id.add_website);
         mAuth= FirebaseAuth.getInstance ();
         currentUserID = mAuth.getCurrentUser ().getUid ();
@@ -86,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
-        alertDialog.setTitle("Add Website");
-        alertDialog.setMessage("Enter website Name and url..");
+        alertDialog.setTitle("Set Website");
+        alertDialog.setMessage("Enter website anme and url..");
 
         Context context = MainActivity.this;
         LinearLayout layout = new LinearLayout(context);
@@ -119,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         else if (TextUtils.isEmpty(linkeouser))
                         {
-                            Toast.makeText(MainActivity.this, "Enter website link ..", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Enter website name ..", Toast.LENGTH_SHORT).show();
                         }
                         else
                         {
